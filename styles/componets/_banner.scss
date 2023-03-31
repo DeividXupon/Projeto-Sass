@@ -1,0 +1,42 @@
+@import '../abstract/variaveis';
+
+.banner{
+    background: url(../../imagens/banner.jpeg) 27% no-repeat;
+    min-height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        .inner-banner{
+            transition: 0.5s;
+            border-bottom: 10px solid $cor-primaria;
+            h2{
+                transition: 1s;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .inner-banner{
+        background-color: $cor-terciaria;
+        padding: 1.5rem;
+        opacity: 0.85;
+        border-radius: 10px;
+        border-bottom: 1px solid $cor-primaria;
+        transition: 1s;
+
+        h1{
+            transition: 1s;
+            font-size: 3rem;
+            color: $cor-primaria;
+            opacity: 1;
+        }
+
+        h2{
+            transition: 0.7s;
+            font-size: 0rem;
+            color: $cor-secundaria;
+        }
+    }
+}

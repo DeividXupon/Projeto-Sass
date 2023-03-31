@@ -13,4 +13,44 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
+  color: #89375F;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #CE5959;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner:hover .inner-banner {
+  transition: 0.5s;
+  border-bottom: 10px solid #89375F;
+}
+.banner:hover .inner-banner h2 {
+  transition: 1s;
+  font-size: 1.5rem;
+}
+.banner .inner-banner {
+  background-color: #BACDDB;
+  padding: 1.5rem;
+  opacity: 0.85;
+  border-radius: 10px;
+  border-bottom: 1px solid #89375F;
+  transition: 1s;
+}
+.banner .inner-banner h1 {
+  transition: 1s;
+  font-size: 3rem;
+  color: #89375F;
+  opacity: 1;
+}
+.banner .inner-banner h2 {
+  transition: 0.7s;
+  font-size: 0rem;
+  color: #CE5959;
 }/*# sourceMappingURL=style.css.map */
