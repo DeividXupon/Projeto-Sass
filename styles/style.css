@@ -36,21 +36,71 @@ nav ul li a:hover {
   font-size: 1.5rem;
 }
 .banner .inner-banner {
-  background-color: #BACDDB;
+  background-color: #a1b6c5;
   padding: 1.5rem;
   opacity: 0.85;
   border-radius: 10px;
   border-bottom: 1px solid #89375F;
-  transition: 1s;
+  transition-duration: 2s;
+  transition-delay: 2s;
 }
 .banner .inner-banner h1 {
-  transition: 1s;
   font-size: 3rem;
   color: #89375F;
   opacity: 1;
 }
 .banner .inner-banner h2 {
-  transition: 0.7s;
+  transition-duration: 1s;
+  transition-delay: 2s;
   font-size: 0rem;
   color: #CE5959;
+}
+
+#servico {
+  padding: 20px;
+}
+#servico h3 {
+  font-size: 2.5rem;
+  color: #CE5959;
+  text-transform: uppercase;
+  text-align: center;
+}
+#servico h4 {
+  font-size: 1.5rem;
+  color: #89375F;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2rem;
+}
+#servico .cards {
+  display: flex;
+  justify-content: space-between;
+}
+#servico .cards .card {
+  width: 500px;
+  text-align: center;
+  margin: 10px;
+}
+#servico .cards .card h5 {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: #a1b6c5;
+}
+#servico .cards .card p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+}
+#servico .cards .card .img-container {
+  border-bottom: 3px solid #CE5959;
+  border-top: 3px solid #CE5959;
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+#servico .cards .card .img-container img {
+  border-radius: 5px;
+  max-width: 100%;
 }/*# sourceMappingURL=style.css.map */
