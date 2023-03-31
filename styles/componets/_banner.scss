@@ -24,8 +24,8 @@
         opacity: 0.85;
         border-radius: 10px;
         border-bottom: 1px solid $cor-primaria;
-        transition-duration: 2s;
-        transition-delay: 2s;
+        transition-duration: 1s;
+        transition-delay: 1s;
 
         h1{
             font-size: 3rem;
@@ -35,7 +35,6 @@
 
         h2{
             transition-duration: 1s;
-            transition-delay: 2s;
             font-size: 0rem;
             color: $cor-secundaria;
         }

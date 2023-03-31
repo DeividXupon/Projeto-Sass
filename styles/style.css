@@ -41,8 +41,8 @@ nav ul li a:hover {
   opacity: 0.85;
   border-radius: 10px;
   border-bottom: 1px solid #89375F;
-  transition-duration: 2s;
-  transition-delay: 2s;
+  transition-duration: 1s;
+  transition-delay: 1s;
 }
 .banner .inner-banner h1 {
   font-size: 3rem;
@@ -51,7 +51,6 @@ nav ul li a:hover {
 }
 .banner .inner-banner h2 {
   transition-duration: 1s;
-  transition-delay: 2s;
   font-size: 0rem;
   color: #CE5959;
 }
@@ -103,4 +102,41 @@ nav ul li a:hover {
 #servico .cards .card .img-container img {
   border-radius: 5px;
   max-width: 100%;
+}
+
+#cupom {
+  padding: 60px;
+  background-color: #89375F;
+  text-align: center;
+}
+#cupom h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: #a1b6c5;
+}
+#cupom .inscricao .input input {
+  height: 35px;
+  width: 350px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
+#cupom .inscricao button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 200px;
+  height: 40px;
+  font-size: 1.4rem;
+  font-weight: 100;
+  border-radius: 100px;
+  background-color: #CE5959;
+  margin: 20px;
+}
+#cupom .inscricao button:hover {
+  transition: 0.1s;
+  border: 3px solid #a1b6c5;
 }/*# sourceMappingURL=style.css.map */
