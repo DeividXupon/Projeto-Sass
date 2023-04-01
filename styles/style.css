@@ -139,4 +139,29 @@ nav ul li a:hover {
 #cupom .inscricao button:hover {
   transition: 0.1s;
   border: 3px solid #a1b6c5;
+}
+
+#cd {
+  padding: 2rem;
+  text-align: center;
+}
+#cd h3 {
+  color: #89375F;
+  font-size: 1.7rem;
+}
+#cd h4 {
+  color: #CE5959;
+  font-size: 1.2rem;
+}
+#cd p {
+  margin-top: 5px;
+  color: #89375F;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: wheat;
+  height: 25px;
+  font-size: 1.2rem;
 }/*# sourceMappingURL=style.css.map */

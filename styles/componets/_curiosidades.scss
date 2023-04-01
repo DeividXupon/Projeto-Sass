@@ -1,0 +1,27 @@
+@import '../abstract/variaveis';
+
+#cd {
+    padding: 2rem;
+    text-align: center;
+
+    h3 {
+        color: $cor-primaria;
+        font-size: 1.7rem;
+    }
+    h4 {
+        color: $cor-secundaria;
+        font-size: 1.2rem;
+    }
+    p {
+        margin-top: 5px;
+        color: $cor-primaria;
+    }
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    height: 25px;
+    font-size: 1.2rem;
+}
